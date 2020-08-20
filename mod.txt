@@ -1,0 +1,12 @@
+{
+	"name": "Fully Loaded Aced Always Grant A Throwable (3s Cooldown)",
+	"description": "With Fully Loaded Aced, each ammo box always grants a throwable, but has a 3s cooldown.",
+	"author": "liurui39660",
+	"version": "2.0",
+	"hooks": [
+		{
+			"hook_id": "lib/player_actions/skills/playeractionfullyloaded",
+			"script_path": "mod.lua"
+		}
+	]
+}
