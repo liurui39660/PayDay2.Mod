@@ -1,0 +1,12 @@
+{
+	"name": "Larger Ammo Box",
+	"description": "",
+	"author": "liurui39660",
+	"version": "1.0",
+	"hooks": [
+		{
+			"hook_id": "lib/units/weapons/raycastweaponbase",
+			"script_path": "mod.lua"
+		}
+	]
+}
