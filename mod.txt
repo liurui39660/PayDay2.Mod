@@ -1,6 +1,6 @@
 {
 	"name": "Larger Ammo Box",
-	"description": "",
+	"description": "Ammo pickup is doubled and always takes the maximum value.",
 	"author": "liurui39660",
 	"version": "1.0",
 	"hooks": [
