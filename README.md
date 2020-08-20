@@ -1,0 +1,1 @@
+Reload speed +50%.

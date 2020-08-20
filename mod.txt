@@ -1,0 +1,12 @@
+{
+	"name": "Faster Reload",
+	"description": "Reload speed +50%.",
+	"author": "liurui39660",
+	"version": "1.0",
+	"hooks": [
+		{
+			"hook_id": "lib/units/weapons/newraycastweaponbase",
+			"script_path": "mod.lua"
+		}
+	]
+}
