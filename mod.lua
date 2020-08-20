@@ -27,8 +27,7 @@ function RaycastWeaponBase:add_ammo(ratio, add_amount_override)
 		local picked_up = true
 
 		if not add_amount then
-			local pistol_multiplier = tweak_data.weapon[ammo_base._name_id].categories[1] == "pistol" and 1 or 1
-			local rng_ammo = math.lerp(ammo_base._ammo_pickup[1] * multiplier_min, pistol_multiplier * 2 * ammo_base._ammo_pickup[2] * multiplier_max, 1)
+			local rng_ammo = math.lerp(ammo_base._ammo_pickup[1] * multiplier_min, 2 * ammo_base._ammo_pickup[2] * multiplier_max, 1)
 			picked_up = rng_ammo > 0
 			add_amount = math.max(0, math.ceil(rng_ammo))
 		end
