@@ -1,1 +1,5 @@
 `name` is optional and has no practical usage.
+
+Change `hash` only when a new release version is ready.
+
+Use `https://raw.githubusercontent.com/liurui39660/PayDay2.Mod/master/meta.json` as meta link.
