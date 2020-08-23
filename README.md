@@ -40,7 +40,7 @@ Demo
 All uses scheme A.
 
 For Theia, in a random forest ↓  
-[![](https://img.youtube.com/vi/QJoBrVGJ1RU/0.jpg))](https://youtu.be/QJoBrVGJ1RU)
+[![](https://img.youtube.com/vi/QJoBrVGJ1RU/0.jpg)](https://youtu.be/QJoBrVGJ1RU)
 
 For Advanced Combat Sight, in someone's breakout ↓  
-[![](https://img.youtube.com/vi/t2MmK5fwLS8/0.jpg))](https://youtu.be/t2MmK5fwLS8)
+[![](https://img.youtube.com/vi/t2MmK5fwLS8/0.jpg)](https://youtu.be/t2MmK5fwLS8)
