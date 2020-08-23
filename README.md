@@ -3,7 +3,7 @@ Or say, a new logic for old Ammo Efficiency.
 Put the decompressed folder into `mods/`, like most other mods.
 
 The new logic is  
-Basic: Getting **2** headshots from at least **18.00m** in less than 6.0 seconds will add **1** bullet to your current weapon's reserved ammo. It can only be triggered by SMGs, ARs or Sniper Rifles in single-shot mode.  
+Basic: Getting **2** headshots from at least **18.00m** in less than **6.0** seconds will add **1** bullet to your current weapon's reserved ammo. It can only be triggered by SMGs, ARs or Sniper Rifles in single-shot mode.  
 Ace: For SMGs and ARs, the distance requirement is **removed**. For Sniper Rifles, the ammo pickup rate is **halved**, but any **lethal headshot** from at least **18.00m** will add **1** bullet to its reserved ammo.   
 Note: "Lethal" means the target is either killed or "inspired" by a nearby Medic.
 
