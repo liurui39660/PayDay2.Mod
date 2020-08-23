@@ -1,8 +1,8 @@
 {
 	"name": "Faster Reload",
-	"description": "Reload speed +50%.",
+	"description": "Reload speed +25%.",
 	"author": "liurui39660",
-	"version": "1.0",
+	"version": "1.0.0",
 	"hooks": [
 		{
 			"hook_id": "lib/units/weapons/newraycastweaponbase",
