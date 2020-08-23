@@ -1,1 +1,0 @@
-Ammo pickup is doubled and always takes the maximum value.

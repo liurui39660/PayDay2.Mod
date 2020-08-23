@@ -1,8 +1,8 @@
 {
 	"name": "Larger Ammo Box",
-	"description": "Ammo pickup is doubled and always takes the maximum value.",
+	"description": "Ammo pickup is 2.5x",
 	"author": "liurui39660",
-	"version": "1.0",
+	"version": "1.0.0",
 	"hooks": [
 		{
 			"hook_id": "lib/units/weapons/raycastweaponbase",
