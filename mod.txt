@@ -1,6 +1,6 @@
 {
 	"name": "Faster Swap",
-	"description": "Weapon swap speed +50%.",
+	"description": "Weapon swap speed +25%.",
 	"author": "liurui39660",
 	"version": "1.0",
 	"hooks": [
