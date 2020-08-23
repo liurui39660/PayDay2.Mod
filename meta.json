@@ -5,5 +5,12 @@
 		"hash": "fcdec9c3ad5f5597f887f46df3c1dbcd27239845fb469cb76ebc6de551287bbd",
 		"download_url": "https://github.com/liurui39660/PayDay2.Mod/releases/download/1.1.0/Higher.45.Degree.Sight.Zoom.zip",
 		"patchnotes_url": "https://github.com/liurui39660/PayDay2.Mod/blob/Higher45DegreeSightZoom/CHANGELOG.md"
+	},
+	{
+		"name": "Long-Range Ammo Efficiency",
+		"ident": "ca8166d2-f2a8-4b3e-8d1b-341f7f752f83",
+		"hash": "f5ce4969aeb0c9a9c9563af236d166f7bca01b95293ba9263543d6adcb29a322",
+		"download_url": "https://github.com/liurui39660/PayDay2.Mod/releases/download/1.0.0/Long-Range.Ammo.Efficiency.zip",
+		"patchnotes_url": "https://github.com/liurui39660/PayDay2.Mod/blob/LongRangeAmmoEfficiency/CHANGELOG.md"
 	}
 ]
