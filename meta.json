@@ -12,5 +12,12 @@
 		"hash": "f5ce4969aeb0c9a9c9563af236d166f7bca01b95293ba9263543d6adcb29a322",
 		"download_url": "https://github.com/liurui39660/PayDay2.Mod/releases/download/1.0.0/Long-Range.Ammo.Efficiency.zip",
 		"patchnotes_url": "https://github.com/liurui39660/PayDay2.Mod/blob/LongRangeAmmoEfficiency/CHANGELOG.md"
+	},
+	{
+		"name": "More ADS Zoom",
+		"ident": "47ea759a-f309-40cd-ac46-42f9ea9ebe57",
+		"hash": "71d490a744c092da49dd9e472b325cabf2bfc5058ab691efac90bad6f371c812",
+		"download_url": "https://github.com/liurui39660/PayDay2.Mod/releases/download/2.0.0/More.ADS.Zoom.zip",
+		"patchnotes_url": "https://github.com/liurui39660/PayDay2.Mod/blob/MoreADSZoom/CHANGELOG.md"
 	}
 ]
