@@ -1,0 +1,20 @@
+{
+	"name": "More ADS Zoom",
+	"description": "Change the global zoom level, should be applied to all sights, including gadget sights.",
+	"author": "liurui39660",
+	"version": "2.0.0",
+	"hooks": [
+		{
+			"hook_id": "lib/managers/menumanager",
+			"script_path": "mod.lua"
+		}
+	],
+	"updates": [
+		{
+			"identifier": "47ea759a-f309-40cd-ac46-42f9ea9ebe57",
+			"host": {
+				"meta": "https://raw.githubusercontent.com/liurui39660/PayDay2.Mod/master/meta.json"
+			}
+		}
+	]
+}

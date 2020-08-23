@@ -1,0 +1,23 @@
+{
+	"menu_id": "ab25ffb7-eb1f-4698-9141-dacc6423ff75",
+	"parent_menu_id": "blt_options",
+	"title": "a8a8ebc8-19f4-41ff-aa4b-cc641f68f43f",
+	"description": "28d6d825-547e-4a73-ab15-b1be1754a67a",
+	"back_callback": "a1d67758-7a5e-4978-a0a7-76172b727cc1",
+	"items": [
+		{
+			"type": "multiple_choice",
+			"id": "0db668d5-83e1-4875-aac6-09dbb47cf218",
+			"title": "65248c01-e4e4-410b-bfac-01d8c39e0247",
+			"description": "7a45cd6e-4377-4631-b537-b5d3256708d5",
+			"callback": "a6bc7789-1cd0-4b39-83c0-4f21112e4e96",
+			"items": [
+				"5466b9f2-c1d1-43d2-acf9-f4a05008b17d",
+				"2893cf81-85e0-4c54-999a-4a398bcca3b7",
+				"d6dea8d1-9f64-43f3-9da4-7a13733cf2b2"
+			],
+			"value": "choice",
+			"default_value": 3
+		}
+	]
+}
