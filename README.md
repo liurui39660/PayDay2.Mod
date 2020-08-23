@@ -19,5 +19,8 @@ A: If you have 0% crit chance, 160-level rifles might be hard to one-headshot ki
 Q: How about ARs and SMGs?  
 A: Though in the Basic version, you only need 2 headshots, the 18m distance requirement makes it not that easy to achieve the reward. But if you equip a high-level sight, it might be able to save you 6 skill points, as the distance requirement is the only difference between Basic and Aced, for ARs and SMGs, of course.
 
+Q: Will changing weapon or switching fire mode interrupt the timer?
+A: Unlike the unmodded version, in this mod, the timer only reset when the 6s expires or you gain the reward.
+
 I only did some basic tests, please report in the comment or GitHub issues if you find a potential bug.  
 Comments, suggestions and ideas for thumbnails are welcomed.
