@@ -1,6 +1,6 @@
-`name` is optional and has no practical usage.
-
+Delete `.git` folder in the zip file. +
 Publish new release before changing `hash`. +
 Change `hash` only when a new release version is ready.
 
-Use `https://raw.githubusercontent.com/liurui39660/PayDay2.Mod/master/meta.json` as meta link.
+`name` is optional and has no practical usage. +
+Use `https://raw.githubusercontent.com/liurui39660/PayDay2.Mod/master/meta.json` as the meta link.
