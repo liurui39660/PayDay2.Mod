@@ -4,3 +4,34 @@ Change `hash` only when a new release version is ready.
 
 `name` is optional and has no practical usage. +
 Use `https://raw.githubusercontent.com/liurui39660/PayDay2.Mod/master/meta.json` as the meta link.
+
+- [ ] Update code.
+- [ ] Check copyright notice in source code files.
+- [ ] The first sentence in `README.md` is the same as the description in `mod.txt`.
+- [ ] Change the version number in `mod.txt`.
+- [ ] Modify `CHANGELOG.md`.
+- [ ] Use the title-case no-space mod name as the branch name.
+- [ ] Commit and push changes to GitHub.
+
+- [ ] Zip the folder.
+- [ ] Delete `.git` folder in the zip file.
+
+- [ ] Draft new release.
+- [ ] Upload the zip file.
+- [ ] Tag is the title-case no-space mod name + dash (`-`) + version number.
+- [ ] Switch to the corresponding branch.
+- [ ] The release name is the mod name.
+- [ ] Copy change log from `CHANGELOG.md`.
+- [ ] Publish
+
+- [ ] Copy all contents from `README.md`.
+- [ ] Append the link to the corresponding GitHub branch above the description.
+- [ ] Add the `self-updating` tag.
+- [ ] Copy & paste download link.
+- [ ] Check if the link is complete.
+- [ ] The Short Description is the same as the description in `mod.txt`.
+- [ ] The Changelog is the link to GitHub `CHANGELOG.md` preview page.
+- [ ] The License is the link to GitHub `LICENSE` preview page.
+- [ ] Change version number.
+- [ ] Save.
+- [ ] Draft thumbnail image.
