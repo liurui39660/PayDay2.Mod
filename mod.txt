@@ -2,7 +2,7 @@
 	"name": "Long-Range Ammo Efficiency",
 	"description": "Reduce snipers' concern about ammo.",
 	"author": "liurui39660",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"hooks": [
 		{
 			"hook_id": "lib/player_actions/skills/playeractionammoefficiency",
