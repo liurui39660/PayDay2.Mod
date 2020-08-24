@@ -26,5 +26,12 @@
 		"hash": "5dee9a580fc33e261f8f996c05122d4e1d0df2e68f370edf885e189cd68036f7",
 		"download_url": "https://github.com/liurui39660/PayDay2.Mod/releases/download/LongRangeRifleman-1.0.0/Long-Range.Rifleman.zip",
 		"patchnotes_url": "https://github.com/liurui39660/PayDay2.Mod/blob/LongRangeRifleman/CHANGELOG.md"
+	},
+	{
+		"name": "Graze Headshot Deal Full Damage And No Need To Kill The Target",
+		"ident": "96cd3e14-551f-48f4-a002-33bde6c1aa1a",
+		"hash": "9335b73a2511e767e9a18527be4afded5ab829a1bb649fa2f8b53fdfa8711794",
+		"download_url": "https://github.com/liurui39660/PayDay2.Mod/releases/download/GrazeHeadshotDealFullDamageAndNoNeedToKillTheTarget-1.1.0/Graze.Headshot.Deal.Full.Damage.And.No.Need.To.Kill.The.Target.zip",
+		"patchnotes_url": "https://github.com/liurui39660/PayDay2.Mod/blob/GrazeHeadshotDealFullDamageAndNoNeedToKillTheTarget/CHANGELOG.md"
 	}
 ]
