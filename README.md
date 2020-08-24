@@ -10,7 +10,7 @@ A: Mainly for suppressed sniper rifles. A suppressor will decrease the damage a 
 Q: What's the simple damage?  
 A: Just pure damage. It does not count towards any weapon, also can't be labeled as a headshot. 
 
-Q: How about the original Rifleman Aced?
+Q: How about the original Rifleman Aced?  
 A: Most old upgrades except for the pistol zoom increase are removed.
 
 Comments, suggestion and ideas for thumbnails are welcomed.
