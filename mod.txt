@@ -1,0 +1,20 @@
+{
+	"name": "Graze Headshot Deal Full Damage And No Need To Kill The Target",
+	"description": "I think the title is already very clear.",
+	"author": "liurui39660",
+	"version": "1.1.0",
+	"hooks": [
+		{
+			"hook_id": "lib/managers/player/snipergrazedamage",
+			"script_path": "mod.lua"
+		}
+	],
+	"updates": [
+		{
+			"identifier": "96cd3e14-551f-48f4-a002-33bde6c1aa1a",
+			"host": {
+				"meta": "https://raw.githubusercontent.com/liurui39660/PayDay2.Mod/master/meta.json"
+			}
+		}
+	]
+}
