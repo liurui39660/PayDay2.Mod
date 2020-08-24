@@ -14,7 +14,7 @@
 -- limitations under the License.
 -- ------------------------------------------------------------------------------
 
-AmmoEfficiency = AmmoEfficiency or {
+LongRangeAmmoEfficiency = LongRangeAmmoEfficiency or {
 	headshot_count = 0, -- Var
 	headshot_target = 2, -- Const
 	time_limit = 6, -- Const
@@ -24,10 +24,12 @@ AmmoEfficiency = AmmoEfficiency or {
 	bullet_refund = 1, -- Const
 }
 
-function AmmoEfficiency:on_weapon_fired(weapon_unit, result)
+function LongRangeAmmoEfficiency:on_weapon_fired(weapon_unit, result)
 	if alive(weapon_unit) and weapon_unit:base():fire_mode() == "single" and weapon_unit == managers.player:equipped_weapon_unit()
 		and (weapon_unit:base():is_category("smg", "assault_rifle") or weapon_unit:base():is_category("snp") and self.level == 1) then
 		local time = Application:time()
+		local sentry_mask = managers.slot:get_mask("sentry_gun")
+		local ally_mask = managers.slot:get_mask("all_criminals")
 		for _, hit in ipairs(result.rays) do
 			local result = hit.damage_result
 			if result and result.attack_data -- Hit is valid
@@ -47,13 +49,15 @@ function AmmoEfficiency:on_weapon_fired(weapon_unit, result)
 	end
 end
 
-AmmoEfficiencySniper = AmmoEfficiencySniper or {
+LongRangeAmmoEfficiencySniper = LongRangeAmmoEfficiencySniper or {
 	distance_req = 1800, -- Const
 	bullet_refund = 1, -- Const
 }
 
-function AmmoEfficiencySniper:on_sniper_rifle_fired(weapon_unit, result)
+function LongRangeAmmoEfficiencySniper:on_sniper_rifle_fired(weapon_unit, result)
 	if alive(weapon_unit) and weapon_unit:base():is_category("snp") and weapon_unit == managers.player:equipped_weapon_unit() then
+		local sentry_mask = managers.slot:get_mask("sentry_gun")
+		local ally_mask = managers.slot:get_mask("all_criminals")
 		for _, hit in ipairs(result.rays) do
 			local result = hit.damage_result
 			if result and result.attack_data -- Hit is valid
@@ -68,17 +72,17 @@ end
 Hooks:PostHook(PlayerManager, "check_skills", "f85f68da-53a0-4a01-ad25-a3cc7f435ce0", function(self)
 	local level = self:upgrade_level("player", "head_shot_ammo_return")
 	if level == 1 then
-		AmmoEfficiency.level = level
-		AmmoEfficiency.distance_req = 1800
-		self:register_message(Message.OnWeaponFired, "ammo_efficiency", callback(AmmoEfficiency, AmmoEfficiency, "on_weapon_fired"))
+		LongRangeAmmoEfficiency.level = level
+		LongRangeAmmoEfficiency.distance_req = 1800
+		self:register_message(Message.OnWeaponFired, "long_range_ammo_efficiency", callback(LongRangeAmmoEfficiency, LongRangeAmmoEfficiency, "on_weapon_fired"))
 	elseif level == 2 then
-		AmmoEfficiency.level = level
-		AmmoEfficiency.distance_req = 0
-		self:register_message(Message.OnWeaponFired, "ammo_efficiency", callback(AmmoEfficiency, AmmoEfficiency, "on_weapon_fired"))
-		self:register_message(Message.OnWeaponFired, "ammo_efficiency_sniper", callback(AmmoEfficiencySniper, AmmoEfficiencySniper, "on_sniper_rifle_fired"))
+		LongRangeAmmoEfficiency.level = level
+		LongRangeAmmoEfficiency.distance_req = 0
+		self:register_message(Message.OnWeaponFired, "long_range_ammo_efficiency", callback(LongRangeAmmoEfficiency, LongRangeAmmoEfficiency, "on_weapon_fired"))
+		self:register_message(Message.OnWeaponFired, "long_range_ammo_efficiency_sniper", callback(LongRangeAmmoEfficiencySniper, LongRangeAmmoEfficiencySniper, "on_sniper_rifle_fired"))
 	else
-		AmmoEfficiency.level = 0
-		self:unregister_message(Message.OnWeaponFired, "ammo_efficiency")
-		self:unregister_message(Message.OnWeaponFired, "ammo_efficiency_sniper")
+		LongRangeAmmoEfficiency.level = 0
+		self:unregister_message(Message.OnWeaponFired, "long_range_ammo_efficiency")
+		self:unregister_message(Message.OnWeaponFired, "long_range_ammo_efficiency_sniper")
 	end
 end)
