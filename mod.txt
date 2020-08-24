@@ -1,0 +1,24 @@
+{
+	"name": "Long-Range Rifleman",
+	"description": "Farther the distance, higher the damage.",
+	"author": "liurui39660",
+	"version": "1.0.0",
+	"hooks": [
+		{
+			"hook_id": "lib/managers/playermanager",
+			"script_path": "PlayerManager.lua"
+		},
+		{
+			"hook_id": "lib/tweak_data/skilltreetweakdata",
+			"script_path": "SkillTreeTweakData.lua"
+		}
+	],
+	"updates": [
+		{
+			"identifier": "8bba4938-1445-41e8-8003-c06780b9a73b",
+			"host": {
+				"meta": "https://raw.githubusercontent.com/liurui39660/PayDay2.Mod/master/meta.json"
+			}
+		}
+	]
+}
