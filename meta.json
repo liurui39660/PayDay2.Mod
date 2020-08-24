@@ -19,5 +19,12 @@
 		"hash": "71d490a744c092da49dd9e472b325cabf2bfc5058ab691efac90bad6f371c812",
 		"download_url": "https://github.com/liurui39660/PayDay2.Mod/releases/download/2.0.0/More.ADS.Zoom.zip",
 		"patchnotes_url": "https://github.com/liurui39660/PayDay2.Mod/blob/MoreADSZoom/CHANGELOG.md"
+	},
+	{
+		"name": "Long-Range Rifleman",
+		"ident": "8bba4938-1445-41e8-8003-c06780b9a73b",
+		"hash": "66267a15455ec5c8ee9e15ae318f84d18142e7ebb34dd121141a34b33d0f19ba",
+		"download_url": "https://github.com/liurui39660/PayDay2.Mod/releases/download/LongRangeRifleman-1.0.0/Long-Range.Rifleman.zip",
+		"patchnotes_url": "https://github.com/liurui39660/PayDay2.Mod/blob/LongRangeRifleman/CHANGELOG.md"
 	}
 ]
