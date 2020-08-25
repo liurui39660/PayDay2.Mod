@@ -33,5 +33,12 @@
 		"hash": "9335b73a2511e767e9a18527be4afded5ab829a1bb649fa2f8b53fdfa8711794",
 		"download_url": "https://github.com/liurui39660/PayDay2.Mod/releases/download/GrazeHeadshotDealFullDamageAndNoNeedToKillTheTarget-1.1.0/Graze.Headshot.Deal.Full.Damage.And.No.Need.To.Kill.The.Target.zip",
 		"patchnotes_url": "https://github.com/liurui39660/PayDay2.Mod/blob/GrazeHeadshotDealFullDamageAndNoNeedToKillTheTarget/CHANGELOG.md"
+	},
+	{
+		"name": "Disable Grace Period",
+		"ident": "9907ca46-9576-41e3-a7b6-eef523e67b91",
+		"hash": "05d1c6a36f25b986e536bab2f8ba99d5ed7f7ad87879380747f87ffc65bebe96",
+		"download_url": "https://github.com/liurui39660/PayDay2.Mod/releases/download/DisableGracePeriod-1.1.0/Disable.Grace.Period.zip",
+		"patchnotes_url": "https://github.com/liurui39660/PayDay2.Mod/blob/DisableGracePeriod/CHANGELOG.md"
 	}
 ]
