@@ -20,6 +20,5 @@ But of course, in the game, you will receive the original damage, not 0.01.
 Without this mod:  
 [![](https://img.youtube.com/vi/BNvGtnCiQmI/0.jpg)](https://youtu.be/BNvGtnCiQmI)
 
-
 With this mod:  
 [![](https://img.youtube.com/vi/fc7ZuYeWizY/0.jpg)](https://youtu.be/fc7ZuYeWizY)
