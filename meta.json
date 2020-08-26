@@ -28,11 +28,11 @@
 		"patchnotes_url": "https://github.com/liurui39660/PayDay2.Mod/blob/LongRangeRifleman/CHANGELOG.md"
 	},
 	{
-		"name": "Graze Headshot Deal Full Damage And No Need To Kill The Target",
+		"name": "Better Graze",
 		"ident": "96cd3e14-551f-48f4-a002-33bde6c1aa1a",
-		"hash": "9335b73a2511e767e9a18527be4afded5ab829a1bb649fa2f8b53fdfa8711794",
-		"download_url": "https://github.com/liurui39660/PayDay2.Mod/releases/download/GrazeHeadshotDealFullDamageAndNoNeedToKillTheTarget-1.1.0/Graze.Headshot.Deal.Full.Damage.And.No.Need.To.Kill.The.Target.zip",
-		"patchnotes_url": "https://github.com/liurui39660/PayDay2.Mod/blob/GrazeHeadshotDealFullDamageAndNoNeedToKillTheTarget/CHANGELOG.md"
+		"hash": "b5b223b3c8a472a88c9314ccff5e26edc1207571a729668a4897bb6229858f47",
+		"download_url": "https://github.com/liurui39660/PayDay2.Mod/releases/download/1.2.0-BetterGraze/Better.Graze.zip",
+		"patchnotes_url": "https://github.com/liurui39660/PayDay2.Mod/blob/BetterGraze/CHANGELOG.md"
 	},
 	{
 		"name": "Disable Grace Period",
