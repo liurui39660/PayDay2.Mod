@@ -1,8 +1,8 @@
 {
-	"name": "Graze Headshot Deal Full Damage And No Need To Kill The Target",
-	"description": "I think the title is already very clear.",
+	"name": "Better Graze",
+	"description": "Graze 1) deals full 20%/100% damage, 2) does not need killing shots and 3) spares civilians.",
 	"author": "liurui39660",
-	"version": "1.1.0",
+	"version": "1.2.0",
 	"hooks": [
 		{
 			"hook_id": "lib/managers/player/snipergrazedamage",

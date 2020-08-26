@@ -1,7 +1,7 @@
-I think the title is already very clear.  
-Graze headshot deal full damage to nearby enemies regardless of the target's current HP. And that headshot does not need to kill the target.  
-For body shot, it's still 20%, and if that exceeds the target's current HP, the nearby enemies also receive the full 20% damage.  
-Throw the decompressed folder to `'mod/`, like most other mods.
+Graze 1) deals full 20%/100% damage, 2) does not need killing shots and 3) spares civilians.  
+Graze deals full damage to nearby enemies regardless of the target's current HP. And that headshot does not need to kill the target.  
+For body shot, it's still 20%, but if that exceeds the target's current HP, the nearby enemies also receive the full 20% damage.    
+Throw the decompressed folder to `mod/`, like most other mods.
 
 Q: Can you give some examples?  
 A: Assume there are two cops, alpha and beta, they are close to each other (<100cm). A player with Graze Aced shoot alpha using a sniper rifle. There are two variables that determine the final damage: hit position (head or body) and lethality (damage can kill alpha or cannot)  
