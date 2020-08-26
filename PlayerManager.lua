@@ -19,15 +19,15 @@ LongRangeRifleman = LongRangeRifleman or {
 }
 
 function LongRangeRifleman:on_weapon_fired(weapon_unit, result)
-	if alive(weapon_unit) and weapon_unit:base():is_category("smg", "assault_rifle", "snp") and weapon_unit == managers.player:equipped_weapon_unit() then
+	if alive(weapon_unit) and weapon_unit:base():is_category("snp") and weapon_unit == managers.player:equipped_weapon_unit() then
 		for _, hit in ipairs(result.rays) do
 			local result = hit.damage_result
 			if result and result.attack_data
 				and hit.distance >= self.base_distance
-				and result.type ~= "death" and not result.type ~= "healed" then
+				and result.type ~= "death" and result.type ~= "healed" then
 				hit.unit:character_damage():damage_simple({
 					variant = "rifleman",
-					damage = result.attack_data.damage * (hit.distance / self.base_distance - 1),
+					damage = math.pow(result.attack_data.damage, hit.distance / self.base_distance) - result.attack_data.damage,
 					attacker_unit = managers.player:player_unit(),
 					pos = hit.position,
 					attack_dir = -hit.normal
