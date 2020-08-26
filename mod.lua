@@ -14,14 +14,14 @@
 -- limitations under the License.
 -- ------------------------------------------------------------------------------
 
-local sniper_ratio = 2.5
+local ratio = 2.5
 
 Hooks:PreHook(RaycastWeaponBase, "add_ammo", "45f770df-b07c-410c-9341-4332ca6f1900", function(self)
-	self._ammo_pickup[1] = self._ammo_pickup[1] * sniper_ratio
-	self._ammo_pickup[2] = self._ammo_pickup[2] * sniper_ratio
+	self._ammo_pickup[1] = self._ammo_pickup[1] * ratio
+	self._ammo_pickup[2] = self._ammo_pickup[2] * ratio
 end)
 
 Hooks:PostHook(RaycastWeaponBase, "add_ammo", "75524917-c99f-42ab-b7ed-6f22b93c8322", function(self)
-	self._ammo_pickup[1] = self._ammo_pickup[1] / sniper_ratio
-	self._ammo_pickup[2] = self._ammo_pickup[2] / sniper_ratio
+	self._ammo_pickup[1] = self._ammo_pickup[1] / ratio
+	self._ammo_pickup[2] = self._ammo_pickup[2] / ratio
 end)
