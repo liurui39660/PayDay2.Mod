@@ -1,0 +1,20 @@
+{
+	"name": "Unlimited Maniac",
+	"description": "Remove convert and stack limit for Maniac.",
+	"author": "liurui39660",
+	"version": "1.0.0",
+	"hooks": [
+		{
+			"hook_id": "lib/tweak_data/upgradestweakdata",
+			"script_path": "mod.lua"
+		}
+	],
+	"updates": [
+		{
+			"identifier": "9e07670b-91a1-47de-977f-b024d0b61e89",
+			"host": {
+				"meta": "https://raw.githubusercontent.com/liurui39660/PayDay2.Mod/master/meta.json"
+			}
+		}
+	]
+}
