@@ -47,5 +47,12 @@
 		"hash": "52b2bf0d48ee950eebe9efd1cad082504d8dcc60851a3ee801ad2111a28c09d2",
 		"download_url": "https://github.com/liurui39660/PayDay2.Mod/releases/download/1.0.0-NagantReloadsFaster/Nagant.Reloads.Faster.zip",
 		"patchnotes_url": "https://github.com/liurui39660/PayDay2.Mod/blob/NagantReloadsFaster/CHANGELOG.md"
+	},
+	{
+		"name": "Unlimited Maniac",
+		"ident": "9e07670b-91a1-47de-977f-b024d0b61e89",
+		"hash": "3fb0f61c3d3d93b3cf9718ca4ff44f96144b2f45672751fa34701dd1f7cf9320",
+		"download_url": "https://github.com/liurui39660/PayDay2.Mod/releases/download/1.0.0-UnlimitedManiac/Unlimited.Maniac.zip",
+		"patchnotes_url": "https://github.com/liurui39660/PayDay2.Mod/blob/UnlimitedManiac/CHANGELOG.md"
 	}
 ]
