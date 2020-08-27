@@ -1,0 +1,20 @@
+{
+	"name": "Nagant Reloads Faster",
+	"description": "Nagant has the same reload speed as R93's tactical reload.",
+	"author": "liurui39660",
+	"version": "1.0.0",
+	"hooks": [
+		{
+			"hook_id": "lib/units/weapons/newraycastweaponbase",
+			"script_path": "mod.lua"
+		}
+	],
+	"updates": [
+		{
+			"identifier": "f3c03a8a-2e25-4558-bd52-150324db09e4",
+			"host": {
+				"meta": "https://raw.githubusercontent.com/liurui39660/PayDay2.Mod/master/meta.json"
+			}
+		}
+	]
+}
