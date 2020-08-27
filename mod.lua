@@ -15,6 +15,6 @@
 -- ------------------------------------------------------------------------------
 
 Hooks:PostHook(UpgradesTweakData, "_init_pd2_values", "b6153dcb-c1b7-42f6-9f4a-ac87d57c2a99", function(self)
-	self.max_cocaine_stacks_per_tick = math.huge
-	self.max_total_cocaine_stacks = math.huge
+	self.max_cocaine_stacks_per_tick = 0x7fffffffffffffff
+	self.max_total_cocaine_stacks = 0x7fffffffffffffff
 end)
