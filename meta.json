@@ -54,5 +54,12 @@
 		"hash": "3fb0f61c3d3d93b3cf9718ca4ff44f96144b2f45672751fa34701dd1f7cf9320",
 		"download_url": "https://github.com/liurui39660/PayDay2.Mod/releases/download/1.0.0-UnlimitedManiac/Unlimited.Maniac.zip",
 		"patchnotes_url": "https://github.com/liurui39660/PayDay2.Mod/blob/UnlimitedManiac/CHANGELOG.md"
+	},
+	{
+		"name": "Localization Macro Replacement",
+		"ident": "9e9613d8-ae5c-4743-a707-a72c43e2d442",
+		"hash": "f839f09d4790ee2889582f30d04f376788c60d59b3ffff9127bce96fa72234cd",
+		"download_url": "https://github.com/liurui39660/PayDay2.Mod/releases/download/1.1.0-LocalizationMacroReplacement/Localization.Macro.Replacement.zip",
+		"patchnotes_url": "https://github.com/liurui39660/PayDay2.Mod/blob/1.1.0-LocalizationMacroReplacement/CHANGELOG.md"
 	}
 ]
