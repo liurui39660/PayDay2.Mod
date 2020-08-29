@@ -9,5 +9,8 @@ Without this mod, if it's a non-lethal headshot that causes 100 damage to alpha,
 With this mod, the above four damage values to beta will be 100, 20, 100 and 20, respectively. The aced version takes effect in both the first and the third case.  
 Note that, without this mod, if a Medic nearby and "inspires" alpha from death, it's still counted as lethal. With this mod, lethal or not does not matter at all (as the title says).
 
+Q: The in-game description looks a bit weird.  
+A: SuperBLT has some issues in parsing macros, use [Localization Macro Replacement](https://modworkshop.net/mod/28831) before they fix it.
+
 If you only want one of the two effects of this mod, please leave a comment.  
 Comments and suggestions and ideas for the thumbnail image are welcomed.
