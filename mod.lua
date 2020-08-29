@@ -1,21 +1,10 @@
 function SniperGrazeDamage:on_weapon_fired(weapon_unit, result)
-	if not alive(weapon_unit) then
-		return
-	end
-
-	if not weapon_unit:base():is_category("snp") then
-		return
-	end
-
-	if weapon_unit ~= managers.player:equipped_weapon_unit() then
-		return
-	end
-
-	if not result.hit_enemy then
-		return
-	end
-
-	if not result.rays then
+	if not alive(weapon_unit)
+		or not weapon_unit:base():is_category("snp")
+		or weapon_unit ~= managers.player:equipped_weapon_unit()
+		or not result.hit_enemy
+		or not result.rays
+	then
 		return
 	end
 
@@ -84,3 +73,8 @@ function SniperGrazeDamage:on_weapon_fired(weapon_unit, result)
 		})
 	end
 end
+
+local mod_path = ModPath
+Hooks:Add("LocalizationManagerPostInit", "be929a42-18b3-46e0-ba0c-35e9437be86d", function(self)
+	self:load_localization_file(mod_path .. 'locale/en.json')
+end)
