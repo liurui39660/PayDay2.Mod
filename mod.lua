@@ -18,7 +18,12 @@ Hooks:Add("LocalizationManagerPostInit", "dc2067e9-9b3c-466e-a923-317e342edeb5",
 	function LocalizationManager:text(string_id, macros)
 		if self._custom_localizations[string_id] then
 			local return_str = self:_text_macroize(self:_text_macroize(self._custom_localizations[string_id], macros), self._default_macros)
-			return return_str -- If I directly return, BeardLib will throw an error. Weird.
+			if macros and type(macros) == "table" then
+				for k, v in pairs(macros) do
+					return_str = return_str:gsub("$" .. k, v)
+				end
+			end
+			return return_str
 		end
 		return self.orig.text(self, string_id, macros)
 	end
