@@ -1,12 +1,28 @@
 {
-	"name": "Fully Loaded Aced Always Grant A Throwable (3s Cooldown)",
-	"description": "With Fully Loaded Aced, each ammo box always grants a throwable, but has a 3s cooldown.",
+	"name": "Better Fully Loaded",
+	"description": "Basic: +ammo, +pickup. Ace: 5s arrow/throwable, 5% rocket/recharge.",
 	"author": "liurui39660",
-	"version": "2.0",
+	"version": "3.0.0",
 	"hooks": [
 		{
 			"hook_id": "lib/player_actions/skills/playeractionfullyloaded",
-			"script_path": "mod.lua"
+			"script_path": "FullyLoaded.lua"
+		},
+		{
+			"hook_id": "lib/managers/playermanager",
+			"script_path": "PlayerManager.lua"
+		},
+		{
+			"hook_id": "lib/tweak_data/skilltreetweakdata",
+			"script_path": "SkillTreeTweakData.lua"
+		}
+	],
+	"updates": [
+		{
+			"identifier": "35bd14b0-b9a1-42f6-b6c4-489d14464cf2",
+			"host": {
+				"meta": "https://raw.githubusercontent.com/liurui39660/PayDay2.Mod/master/meta.json"
+			}
 		}
 	]
 }
