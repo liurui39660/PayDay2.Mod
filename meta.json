@@ -61,5 +61,12 @@
 		"hash": "f839f09d4790ee2889582f30d04f376788c60d59b3ffff9127bce96fa72234cd",
 		"download_url": "https://github.com/liurui39660/PayDay2.Mod/releases/download/1.1.0-LocalizationMacroReplacement/Localization.Macro.Replacement.zip",
 		"patchnotes_url": "https://github.com/liurui39660/PayDay2.Mod/blob/1.1.0-LocalizationMacroReplacement/CHANGELOG.md"
+	},
+	{
+		"name": "Better Fully Loaded",
+		"ident": "35bd14b0-b9a1-42f6-b6c4-489d14464cf2",
+		"hash": "cb4e10ae465e26fe7b4cdb655e0082112c04706cdc4ecc5873a7656d365193ae",
+		"download_url": "https://github.com/liurui39660/PayDay2.Mod/releases/download/3.0.0-BFL/Better.Fully.Loaded.zip",
+		"patchnotes_url": "https://github.com/liurui39660/PayDay2.Mod/blob/BetterFullyLoaded/CHANGELOG.md"
 	}
 ]
