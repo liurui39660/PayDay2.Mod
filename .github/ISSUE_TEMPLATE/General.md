@@ -1,5 +1,5 @@
 ---
-name: General Issues
+name: General
 about: Something unexpected happened.
 title: ''
 labels: ''
