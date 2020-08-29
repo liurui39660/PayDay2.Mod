@@ -1,6 +1,6 @@
 ## 3.0.0
 - Move "+pickup" to Basic.
-- \+ 3s cd to get an arrow.
+- \+ 5s cd to get an arrow.
 - \+ 5% chance to get a rocket.
 - \+ In-game description.
 - Rename `Fully Loaded Aced Always Grant A Throwable (3s Cooldown)` -> `Better Fully Loaded`.
