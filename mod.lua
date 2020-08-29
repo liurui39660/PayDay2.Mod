@@ -18,3 +18,8 @@ Hooks:PostHook(UpgradesTweakData, "_init_pd2_values", "b6153dcb-c1b7-42f6-9f4a-a
 	self.max_cocaine_stacks_per_tick = 0x7fffffffffffffff
 	self.max_total_cocaine_stacks = 0x7fffffffffffffff
 end)
+
+local mod_path = ModPath
+Hooks:Add("LocalizationManagerPostInit", "87e613f8-635e-4bcf-b4e3-928d45fbd3b9", function(self)
+	self:load_localization_file(mod_path .. 'locale/en.json')
+end)
