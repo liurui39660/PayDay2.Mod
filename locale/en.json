@@ -1,3 +1,3 @@
 {
-	"menu_deck14_1_desc": "##$multiperk;## of damage you deal is converted into Hysteria Stacks.$NL;$NL;Hysteria Stacks$NL;You gain ##$multiperk5;## damage absorption for every ##$multiperk6;## stacks of Hysteria. Hysteria Stacks decays ##$multiperk7;## every ##$multiperk8;## seconds."
+	"menu_deck14_1_desc": "##$multiperk;## of damage you deal is converted into Hysteria Stacks every ##$multiperk3;## seconds.$NL;$NL;Hysteria Stacks$NL;You gain ##$multiperk5;## damage absorption for every ##$multiperk6;## stacks of Hysteria. Hysteria Stacks decays ##$multiperk7;## every ##$multiperk8;## seconds."
 }
