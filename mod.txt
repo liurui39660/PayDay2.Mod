@@ -2,7 +2,7 @@
 	"name": "Better Fully Loaded",
 	"description": "Basic: +ammo, +pickup. Ace: 5s arrow/throwable, 5% rocket/recharge.",
 	"author": "liurui39660",
-	"version": "3.0.0",
+	"version": "3.0.1",
 	"hooks": [
 		{
 			"hook_id": "lib/player_actions/skills/playeractionfullyloaded",

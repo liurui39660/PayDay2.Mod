@@ -1,3 +1,6 @@
+## 3.0.1
+- Fix `data` is not a table (but `0`) when initializing the game.
+
 ## 3.0.0
 - Move "+pickup" to Basic.
 - \+ 5s cd to get an arrow.

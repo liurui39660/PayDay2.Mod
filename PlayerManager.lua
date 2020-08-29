@@ -54,12 +54,10 @@ function BetterFullyLoaded:on_ammo_pickup(unit)
 end
 
 Hooks:PostHook(PlayerManager, "check_skills", "b49779e5-acfa-4fd3-b7df-b079e205cd6a", function(self)
-	local data = managers.player:upgrade_value("player", "regain_throwable_from_ammo", nil)
-	if data then
-		BetterFullyLoaded.rocket_regain_chance = data.chance
+	if managers.player:has_category_upgrade("player", "regain_throwable_from_ammo") then
+		BetterFullyLoaded.rocket_regain_chance = managers.player:upgrade_value("player", "regain_throwable_from_ammo").chance
 		self:register_message(Message.OnAmmoPickup, "better_fully_loaded", callback(BetterFullyLoaded, BetterFullyLoaded, "on_ammo_pickup"))
 	else
-		BetterFullyLoaded.rocket_regain_chance = 0
 		self:unregister_message(Message.OnAmmoPickup, "better_fully_loaded")
 	end
 end)
