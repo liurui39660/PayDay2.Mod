@@ -16,7 +16,7 @@
 
 BetterFullyLoaded = BetterFullyLoaded or {
 	next_throwable_t = 0, -- Var
-	throwable_regain_cd = 5, -- Const
+	throwable_regain_cd = 3, -- Const
 	rocket_regain_chance = 0, -- Set by PlayerManager
 }
 

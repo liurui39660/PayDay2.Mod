@@ -1,3 +1,6 @@
+## 3.1.0
+- Change cooldown 5s -> 3s.
+
 ## 3.0.1
 - Fix `data` is not a table (but `0`) when initializing the game.
 
