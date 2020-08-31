@@ -15,7 +15,8 @@
 -- ------------------------------------------------------------------------------
 
 Hooks:Add("LocalizationManagerPostInit", "dc2067e9-9b3c-466e-a923-317e342edeb5", function(self)
-	function LocalizationManager:text(string_id, macros)
+	local text = LocalizationManager.text
+	function LocalizationManager:text(string_id, macros, ...)
 		if self._custom_localizations[string_id] then
 			local return_str = self:_text_macroize(self:_text_macroize(self._custom_localizations[string_id], macros), self._default_macros)
 			if macros and type(macros) == "table" then
@@ -25,6 +26,6 @@ Hooks:Add("LocalizationManagerPostInit", "dc2067e9-9b3c-466e-a923-317e342edeb5",
 			end
 			return return_str
 		end
-		return self.orig.text(self, string_id, macros)
+		return text(self, string_id, macros, ...)
 	end
 end)
