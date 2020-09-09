@@ -2,7 +2,7 @@
 	"name": "Long-Range Rifleman",
 	"description": "Farther the distance, higher the damage.",
 	"author": "liurui39660",
-	"version": "1.1.0",
+	"version": "1.2.0",
 	"hooks": [
 		{
 			"hook_id": "lib/managers/playermanager",
