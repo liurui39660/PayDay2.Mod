@@ -1,3 +1,3 @@
 {
-	"menu_rifleman_desc": "If you shoot at an enemy from ##18m## away, bonus damage exponential to the distance will be applied. It can only be triggered by sniper rifles and functions as simple damage."
+	"menu_rifleman_beta_desc": "BASIC: ##$basic;##$NL;Your snap to zoom is ##$multibasic;## faster with all weapons.$NL;$NL;Your movement speed is unhindered while using steel sight.$NL;$NL;ACE: ##$pro;##$NL;If you shoot at an enemy from ##18m## away, bonus damage exponential to the distance will be applied. It can only be triggered by sniper rifles and functions as simple damage."
 }

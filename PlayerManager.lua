@@ -44,8 +44,3 @@ Hooks:PostHook(PlayerManager, "check_skills", "6d116c21-d56b-4500-b436-70c98a2db
 		self:unregister_message(Message.OnWeaponFired, "long_range_rifleman")
 	end
 end)
-
-local mod_path = ModPath
-Hooks:Add("LocalizationManagerPostInit", "d6611ca2-4b6d-4fc9-94e1-723894cc3c72", function(self)
-	self:load_localization_file(mod_path .. 'locale/en.json')
-end)

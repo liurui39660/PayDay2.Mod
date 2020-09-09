@@ -17,3 +17,8 @@
 Hooks:PostHook(SkillTreeTweakData, "init", "11200f8a-dd59-451e-83f0-2794c6608fea", function(self)
 	self.skills.rifleman[2].upgrades = { "pistol_zoom_increase" }
 end)
+
+local mod_path = ModPath
+Hooks:Add("LocalizationManagerPostInit", "8d8e0f91-496b-4728-bf43-09d9b27ebdaf", function(self)
+	self:load_localization_file(mod_path .. 'locale/en.json')
+end)
