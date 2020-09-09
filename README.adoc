@@ -1,7 +1,6 @@
 # PayDay 2 Mods
 
-You can download them from the https://github.com/liurui39660/PayDay2.Mod/releases[release page].
-
+You can download them from the https://github.com/liurui39660/PayDay2.Mod/releases[release page]. +
 Most mods include a `README.md` which describes how to use the mod.
 
 You can report bug or give suggestions in the https://github.com/liurui39660/PayDay2.Mod/issues[issue page].
