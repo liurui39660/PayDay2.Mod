@@ -1,37 +1,12 @@
-Delete `.git` folder in the zip file. +
-Publish new release before changing `hash`. +
-Change `hash` only when a new release version is ready.
+# PayDay 2 Mods
 
-`name` is optional and has no practical usage. +
-Use `https://raw.githubusercontent.com/liurui39660/PayDay2.Mod/master/meta.json` as the meta link.
+You can download them from the https://github.com/liurui39660/PayDay2.Mod/releases[release page].
 
-- [ ] Update code.
-- [ ] Check copyright notice in source code files.
-- [ ] The first sentence in `README.md` is the same as the description in `mod.txt`.
-- [ ] Change the version number in `mod.txt`.
-- [ ] Modify `CHANGELOG.md`.
-- [ ] Use the title-case no-space mod name as the branch name.
-- [ ] Commit and push changes to GitHub.
+Most mods include a `README.md` which describes how to use the mod.
 
-- [ ] Zip the folder.
-- [ ] Delete `.git` folder in the zip file.
+You can report bug or give suggestions in the https://github.com/liurui39660/PayDay2.Mod/issues[issue page].
 
-- [ ] Draft new release.
-- [ ] Upload the zip file.
-- [ ] Tag is the title-case no-space mod name + dash (`-`) + version number.
-- [ ] Switch to the corresponding branch.
-- [ ] The release name is the mod name.
-- [ ] Copy change log from `CHANGELOG.md`.
-- [ ] Publish
-
-- [ ] Copy all contents from `README.md`.
-- [ ] Append the link to the corresponding GitHub branch above the description.
-- [ ] Add the `self-updating` tag.
-- [ ] Copy & paste download link.
-- [ ] Check if the link is complete.
-- [ ] The Short Description is the same as the description in `mod.txt`.
-- [ ] The Changelog is the link to GitHub `CHANGELOG.md` preview page.
-- [ ] The License is the link to GitHub `LICENSE` preview page.
-- [ ] Change version number.
-- [ ] Save.
-- [ ] Draft thumbnail image.
+Now, all mods are under the Apache 2.0 license. +
+You can freely modify the code and republish them, or integrate them into your mods. +
+No need to ask me for permissions. +
+But it would be appreciated if you credit me in your mod description.
